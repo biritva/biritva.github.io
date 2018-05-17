@@ -15,5 +15,5 @@ function draw() {
   X=X+random(-10,10);
   Y=Y+random(-10,10);
   fill(fc);
-  ellipse(X,Y,random(75,85),random(75,85));
+  ellipse(X,Y,random(30,80),random(20,85));
 }
