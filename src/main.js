@@ -1,4 +1,6 @@
 var fc=0;
+var X=320;
+var Y=240;
 
 function setup() {
   createCanvas(640,480);
@@ -10,6 +12,8 @@ function draw() {
     fc=0;
   }
   fc=fc+1;
+  X=X+random(-10,10);
+  Y=Y+random(-10,10);
   fill(fc);
-  ellipse(mouseX,mouseY,80,80);
+  ellipse(X,Y,random(75,85),random(75,85));
 }
